@@ -21,9 +21,9 @@ Company entity , beside some other features like search and sort by { name , ema
    in an empty folder or directory , open terminal or CMD 
    and enter the following commands in sequance :
 
- 1. git clone --progress -v ""
+ 1. git clone --progress -v "https://github.com/aboelsoud3/Pere-Spring-Demo.git"
 
- 2.  cd spring-boot-example/
+ 2.  cd Pere-Spring-Demo/
 
  3. mvn clean install
 
