@@ -21,20 +21,27 @@ Company entity , beside some other features like search and sort by { name , ema
    in an empty folder or directory , open terminal or CMD 
    and enter the following commands in sequance :
 
- 1. git clone --progress -v "https://github.com/aboelsoud3/Pere-Spring-Demo.git"
+ 1. `git clone --progress -v "https://github.com/aboelsoud3/Pere-Spring-Demo.git"`
 
- 2.  cd Pere-Spring-Demo/
+ 2.  `cd Pere-Spring-Demo/`
 
- 3. mvn clean install
+ 3. `./mvnw clean install` 
+      "to include unit-tests"
+ or 
+    `./mvnw install  -DskipTests`
+      "to skip unit-tests"
 
- 4. docker build -t pere/example-app .
+ 4. `docker build -t pere/example-app .`
 
- 5. cd docker
+ 5. `cd docker`
 
- 6. docker-compose up -d
+ 6. `docker-compose up -d`
 
   now 2 containers are up & runnig one for postgres DataBase and the other for Application , 
   then you can find end-points documentation at : 
   [company-controller](http://localhost:8080/swagger-ui.html#/company-controller)
+  
+  7. final you can test it via postman or frint-end Angular application :
+   [UI](https://github.com/aboelsoud3/Pere-Angular-Demo)
 
 
