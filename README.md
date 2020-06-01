@@ -41,7 +41,7 @@ Company entity , beside some other features like search and sort by { name , ema
   then you can find end-points documentation at : 
   [company-controller](http://localhost:8080/swagger-ui.html#/company-controller)
   
-  7. final you can test it via postman or frint-end Angular application :
+  7. final you can test it via postman or front-end Angular application :
    [UI](https://github.com/aboelsoud3/Pere-Angular-Demo)
 
 
