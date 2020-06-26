@@ -1,4 +1,4 @@
-# PERE company example
+# Company example
 
 ### ReadMe file
 Hi every one ,
