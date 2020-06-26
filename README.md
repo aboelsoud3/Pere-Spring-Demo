@@ -1,9 +1,7 @@
 # PERE company example
 
 ### ReadMe file
-Hi every one this a sample example requested by [Steffen]() as a part of PERE 
-interview process ,
-
+Hi every one ,
 this is a simple spring-boot application to expose CRUD Rest endpoints , 
 some of technologies used in this project :
 * [MVN](https://maven.apache.org/guides/index.html)
