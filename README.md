@@ -19,9 +19,9 @@ Company entity , beside some other features like search and sort by { name , ema
    in an empty folder or directory , open terminal or CMD 
    and enter the following commands in sequance :
 
- 1. `git clone --progress -v "https://github.com/aboelsoud3/Pere-Spring-Demo.git"`
+ 1. `git clone --progress -v "https://github.com/aboelsoud3/Spring-Demo.git"`
 
- 2.  `cd Pere-Spring-Demo/`
+ 2.  `cd Spring-Demo/`
 
  3. `./mvnw clean install` 
       "to include unit-tests"
@@ -40,6 +40,6 @@ Company entity , beside some other features like search and sort by { name , ema
   [company-controller](http://localhost:8080/swagger-ui.html#/company-controller)
   
   7. final you can test it via postman or front-end Angular application :
-   [UI](https://github.com/aboelsoud3/Pere-Angular-Demo)
+   [UI](https://github.com/aboelsoud3/Angular-Demo)
 
 
